@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speak with Javascript</title>
+    <script src="script.js" defer></script>
+</head>
+<style>
+    body{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    #textarea{
+        width: 100%;
+        height: 50vh;
+    }
+    button{
+        background-color: crimson;
+        color: #fff;
+        padding: 4px;
+        border-radius: 8px;
+        
+    }
+</style>
+<body>
+    <div>
+        <textarea name="" id="textarea"></textarea>
+    </div>
+    <div>
+        <label for="speed">Speed</label>
+        <input type="number" name="spee" id="speed" min=".5"
+        max="3" step=".5" value="1">
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+        <button id="stop">Stop</button>
+    </div>
+</body>
+</html>
